@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    background-color: grey;
+    border: 1px solid black;
+    float: left;
+    width: 32%;
+    margin: 8px;
+    padding: 35px 10px 20px 10px;
+    position: relative;
+  }
+span{
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid black;
+    padding: 3px 25px 3px 25px;
+}  
+#title1{
+    background-color: palevioletred;
+}  
+#title2{
+    background-color: maroon;
+    color: white;
+}
+#title3{
+    background-color: wheat;
+}

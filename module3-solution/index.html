@@ -2,33 +2,51 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment Solution for Module 3</title>
-    <!-- Bootstrap CSS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment Solution for Module 3</title>
+  <!-- Bootstrap CSS -->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-default">
-            <a class="navbar-brand" href="#">Food, LLC</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav visible-xs">
-                <a class="nav-item nav-link active" href="#">Chicken <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Beef</a>
-                <a class="nav-item nav-link" href="#">Sushi</a>
-              </div>
-            </div>
-          </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Food, LLC</a>
+      <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse"
+        data-target="#navbar-fooditems" aria-controls="navbar-fooditems" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-fooditems">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a href="#">Chicken</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Beef</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Sushi</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<div class="container-fluid" id="main-content">
+  <h2 class="text-center">Our Menu</h2>
+  <div class="row" id="chicken-description">
+    <div class="col-xs-12"><h3 class="text-center">Chicken</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit amet consectetur sit amet consectetur adipisicing elit sit amet consectetur adipisicing elit sit amet consectetur adipisicing elit adipisicing elit. Reprehenderit quibusdam at voluptas cum ad temporibus modi totam tempora et? Porro illo fuga hic? Facilis saepe, reiciendis laboriosam eos magni quisquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit quibusdam at voluptas cum ad temporibus modi totam tempora et? Porro illo fuga hic? Facilis saepe, reiciendis laboriosam eos magni quisquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit quibusdam at voluptas cum ad temporibus modi totam tempora et? Porro illo fuga hic? Facilis saepe, reiciendis laboriosam eos magni quisquam.</p></div>
+    </div>
+
+</div>  
+</body>
 
 
 
@@ -36,19 +54,20 @@
 
 
 
-    <!-- jQuery (Bootstrap JS plugins depend on it) -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
 
 </body>

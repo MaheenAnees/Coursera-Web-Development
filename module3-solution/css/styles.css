@@ -1,11 +1,9 @@
-body {
+ body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
 }
 
-.navbar{
-    background-color: gray;
-}
 .navbar-brand{
     color: black;
     font-weight: bold;
@@ -13,11 +11,29 @@ body {
     padding: 5px;
 }
 
-button.navbar-toggler {
-    border: 1px solid black;
+ul{
+    background-color: white;
 }
-.navbar-nav .nav-item{
+li.nav-item{
+    border: 1px solid black;
     color: black;
-    text-align: center;
-    font-size: 1em;
+}
+h2{
+    margin-top: 15px;
+    font-weight: bolder;
+}
+p{
+    height: 1000px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#chicken-description{
+    background-color: darkgray;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 25px;
+}
+h3{
+    font-size: 1.25em;
+    font-weight: bold;
 }

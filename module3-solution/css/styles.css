@@ -33,6 +33,12 @@ p{
     padding-top: 10px;
     margin-top: 25px;
 }
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+    color: black;
+}
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+    background-color: darkgray;
+}
 h3{
     font-size: 1.25em;
     font-weight: bold;
